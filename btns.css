@@ -115,127 +115,100 @@ input, #descripcion {
     color: var(--5);
 }
 
-/* Responsive web para dispositivos pequeños*/
+/* Responsive web */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1080px) {
     .nueva-tarea {
-        margin-top: 5%;
-        width: 40%;
-        height: 8%;
-        font-size: 17px;
+        margin-top: 5vh;
+        width: 40vw;
+        height: 8vh;
+        font-size: 2.5em !important;
     }
 
     .enviar-btn {
-        height: 9%;
-        width: 35%;
+        width: 40vw;
+        height: 8vh;
         margin: 0 auto;
-        font-size: 17px;
+        font-size: 2.5em !important;
     }
 
     .btn-salir {
         position: absolute;
-        right: 5%;
-        top: 90%;
-        height: 8%;
-        width: 10%;
-        font-size: 17px;
+        right: 5vw;
+        top: 90vh;
+        height: 7vh;
+        width: 13vw;
+        font-size: 3em !important;
+    }
+
+    .dialog-btn button {
+        width: 35% !important;
+        padding: 10px;
+        font-size: 2.5em !important;
     }
 
     .editar-usuario {
+        height: 80%;
+        width: 30%;
+        font-size: 3em;
+    }
+
+    input {
+        margin-top: 15px;
+        height: 5vh;
+        width: 70%;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 3em !important;
+    }
+
+    input[type="text"] {
+        font-size: 3em !important;
+    }
+
+    input::placeholder {
+        text-align: center;
+        /* font-size: 2em; */
+    }
+
+    label {
+        font-size: 4em;
+    }
+
+    #descripcion {
         height: 60%;
-        width: 30%;
-        font-size: 1em;
-    }
-
-    input {
-        margin-top: 15px;
-        height: 50px;
-        width: 60%;
-        padding: 0 10px;
-        text-align: center;
-    }
-
-    input::placeholder {
-        text-align: center;
-    }
-
-    #descripcion {
-        height: 80%;
         width: 90%;
         padding: 5px 10px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         resize: none;
         text-align: center;
-    }
-
-    #descripcion::placeholder {
-        text-align: center;
+        font-size: 4em;
     }
 
     #registro-usuario {
         text-align: center;
         font-size: 1.5em;
     }
-}
 
+    .enviar-registro {
+        width: 40vw;
+        height: 8vh;
+        font-size: 2.5em !important;
+    }
 
-@media screen and (max-width: 768px) {
-    .nueva-tarea {
+    .btn-dinamico {
+        width: 25%;
+        height: 25%;
+        margin-top: 15px;
+        font-size: 2em;
+    }
+    
+    .primero-de-clase {
         margin-top: 5%;
-        width: 40%;
-        height: 6%;
-        font-size: 17px;
+        margin-left: 20%;
     }
-
-    .enviar-btn {
-        height: 9%;
-        width: 35%;
-        margin: 0 auto;
-        font-size: 17px;
-    }
-
-    .btn-salir {
-        position: absolute;
-        right: 5%;
-        top: 90%;
-        height: 8%;
-        width: 10%;
-        font-size: 17px;
-    }
-
-    .editar-usuario {
-        height: 100%;
-        width: 30%;
-        font-size: 1.5em;
-    }
-
-    input {
-        margin-top: 15px;
-        height: 50px;
-        width: 60%;
-        padding: 0 10px;
-        text-align: center;
-    }
-
-    input::placeholder {
-        text-align: center;
-    }
-
-    #descripcion {
-        height: 80%;
-        width: 90%;
-        padding: 5px 10px;
-        margin-top: 10px;
-        resize: none;
-        text-align: center;
-    }
-
-    #descripcion::placeholder {
-        text-align: center;
-    }
-
-    #registro-usuario {
-        text-align: center;
-        font-size: 1.5em;
+    
+    .segundo-de-clase {
+        margin-left: 10%;
     }
 }
