@@ -117,7 +117,7 @@ input, #descripcion {
 
 /* Responsive web para dispositivos pequeños*/
 
-@media (max-width: 1440px) and (max-height: 2560px) {
+@media screen and (max-width: 769px) {
     .nueva-tarea {
         margin-top: 5%;
         width: 40%;
@@ -179,7 +179,7 @@ input, #descripcion {
 }
 
 
-@media (min-width: 640px) and (min-height: 800px) and (max-width: 720px) and (max-height: 1280px) {
+@media screen and (max-width: 768px) {
     .nueva-tarea {
         margin-top: 5%;
         width: 40%;
